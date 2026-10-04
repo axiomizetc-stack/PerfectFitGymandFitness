@@ -28,6 +28,14 @@ const translations = {
     "years.kicker": "2015 — 2025",
     "years.title": "Proslavili smo 10 godina. I dalje brojimo.",
     "years.text": "2025. je Perfect Fit napunio deset godina rada u Opinama. Ekipa, članovi i časovi ostaju — sljedeća decenija je već krenula.",
+    "years.cap1": "Proslava 2025",
+    "years.cap2": "Zlatnih 10",
+    "years.cap3": "Ekipa",
+    "years.cap4": "I dalje brojimo",
+    "years.close": "Zatvori",
+    "ig.followers": "pratitelja",
+    "ig.posts": "objava",
+    "ig.follow": "Prati",
     "gal.kicker": "Teretana",
     "gal.title": "Sala, časovi i ekipa.",
     "gal.lead": "Slike iz Perfect Fita. Instagram i Facebook ostaju za svježe objave.",
@@ -91,6 +99,14 @@ const translations = {
     "years.kicker": "2015 — 2025",
     "years.title": "We marked 10 years. And we are still counting.",
     "years.text": "In 2025 Perfect Fit turned ten in Opine. The team, the members and the classes stay — the next decade has already started.",
+    "years.cap1": "2025 party",
+    "years.cap2": "Golden 10",
+    "years.cap3": "The crew",
+    "years.cap4": "Still counting",
+    "years.close": "Close",
+    "ig.followers": "followers",
+    "ig.posts": "posts",
+    "ig.follow": "Follow",
     "gal.kicker": "The gym",
     "gal.title": "The hall, the classes, the crew.",
     "gal.lead": "Photos from Perfect Fit. Instagram and Facebook stay for the newest posts.",
@@ -171,6 +187,22 @@ document.querySelectorAll("#nav a").forEach((link) => {
     header.classList.remove("is-open");
     toggle?.setAttribute("aria-expanded", "false");
   });
+});
+
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = lightbox?.querySelector("img");
+document.querySelectorAll(".polaroid").forEach((button) => {
+  button.addEventListener("click", () => {
+    if (!lightbox || !lightboxImg) return;
+    const photo = button.querySelector("img");
+    lightboxImg.src = button.dataset.full || photo.src;
+    lightboxImg.alt = photo?.alt || "";
+    lightbox.showModal();
+  });
+});
+lightbox?.querySelector(".lightbox-close")?.addEventListener("click", () => lightbox.close());
+lightbox?.addEventListener("click", (event) => {
+  if (event.target === lightbox) lightbox.close();
 });
 
 document.getElementById("order-form")?.addEventListener("submit", (event) => {
