@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-label="Perfect Fit Gym and Fitness">
+  <rect width="640" height="640" fill="#ffffff"/>
+  <g transform="translate(320 268)">
+    <path fill="#2c3238" d="M58-118c18 0 32 16 32 38s-14 38-32 38-32-16-32-38 14-38 32-38zm-70 86c20-8 42-8 62 0l12 86c2 16-8 28-22 28h-8l-10 92c-2 16-16 26-30 22-12-2-20-16-18-28l12-86h-6c-16 0-28-14-24-30l10-84c2-6 8-10 14-10h8zm86 8 18-6c8-2 16 4 16 12l-8 88h10c14 0 24 12 22 26l-12 86c-2 14-16 22-28 20-14-2-22-16-20-28l10-78h-10c-12 0-22-10-20-22l22-98z"/>
+    <path fill="#2c3238" d="M148-42c8 0 14 6 14 14v10c0 8-6 14-14 14h-22l4-38h18zm-40 0 28 0-6 56h-36c-10 0-16-8-14-18l6-28c2-6 8-10 14-10h8z"/>
+    <path fill="#3db7f5" d="M-78-124c16 0 28 16 28 36s-12 36-28 36c-10 0-18-6-24-16 2-8 6-14 12-20 4-6 8-10 12-12zm-4 8c-6 0-10 4-12 8 4 2 8 2 12 0 2-2 2-6 0-8zm-62 90c18-10 40-12 62-4l8 82c2 16-8 28-22 28h-6l-8 90c-2 14-16 24-28 20-12-2-20-16-18-28l10-82h-8c-16 0-26-14-22-30l8-80c2-8 8-12 16-12h8z"/>
+    <path fill="#3db7f5" d="M-168-48c8 0 14 6 14 14v10c0 8-6 14-14 14h-20l4-38h16zm-38 0h26l-6 56h-34c-10 0-16-8-14-18l6-28c2-6 8-10 14-10h8z"/>
+    <path fill="#3db7f5" d="M-118 92c42 18 96 28 158 18 28-4 72-18 98-8 8 4 6 16-4 18-36 8-78 4-118-6-48-12-96-18-142-8-10 2-16-10-8-16 4-2 10-2 16 2z"/>
+  </g>
+  <text x="320" y="470" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="4">
+    <tspan fill="#3db7f5">PERFECT</tspan>
+    <tspan fill="#2c3238"> FIT</tspan>
+  </text>
+  <text x="320" y="512" text-anchor="middle" fill="#6b7580" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="6">GYM AND FITNESS</text>
+</svg>
